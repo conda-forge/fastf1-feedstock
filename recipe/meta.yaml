@@ -19,7 +19,7 @@ requirements:
     - python >=3.8
     - pip
     - hatchling
-    - hatchling-vcs
+    - hatch-vcs
   run:
     - python >=3.8
     - matplotlib-base >=3.4.2, <4.0.0
