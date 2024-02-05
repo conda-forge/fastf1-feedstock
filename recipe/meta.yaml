@@ -1,5 +1,5 @@
 {% set name = "fastf1" %}
-{% set version = "3.2.0" %}
+{% set version = "3.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fastf1-{{ version }}.tar.gz
-  sha256: 45b8e6bc3faa48f476d0e6c96fcf97c097029ec4efcaddf9d583cabd8cd753ca
+  sha256: 3a18b9d7e3981ee3255d80720c5184530db26be0e8125ffb4c7ede9fee85963b
 
 build:
   noarch: python
