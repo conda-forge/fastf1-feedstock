@@ -1,5 +1,5 @@
 {% set name = "fastf1" %}
-{% set version = "3.9.0" %}
+{% set version = "3.9.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/fastf1-{{ version }}.tar.gz
-  sha256: 90ac0aeac14120248075e98f06549f14d09d5ec1440e77be6f35eeddf48bc67b
+  sha256: cf7fb6bae88b7c0a83bacfe44b8a85be05259dc5a5407c4ce3ddd65836535466
 
 build:
   noarch: python
